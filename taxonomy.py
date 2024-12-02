@@ -38,7 +38,7 @@ st.header("Biodiversity")
 st.write("Upload an image from your device or capture one using your camera.")
 
 # Input prompt
-input = st.text_input("Input Prompt:", key="input")
+
 
 # Provide options for image input: upload or camera capture
 tab1, tab2 = st.tabs(["📁 Upload Image", "📸 Capture Image"])
