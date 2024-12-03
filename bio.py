@@ -50,8 +50,30 @@ you are an expert taxonomist where you need to see the image and return detailed
 the image you can answer is of only living organisms like animals,plants etc.
 Do not return results for non-living objects.
 If image does not contain living organism or something which you do not know respond with invalid input.
-  
+I want answer in this format - 
 
+
+Name: Sciurus vulgaris
+
+Common Name: Eurasian red squirrel
+
+Kingdom: Animalia
+
+Phylum: Chordata
+
+Class: Mammalia
+
+Family: Sciuridae
+
+Genus: Sciurus
+
+Native Country: Eurasia (widely distributed across Europe and parts of Asia)
+
+Interseting fact:
+
+ write Story
+
+ 
 """
 
 ## If submit button is clicked
