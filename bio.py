@@ -2,14 +2,15 @@ import streamlit as st
 import os
 import google.generativeai as genai
 from PIL import Image
+from dotenv import load_dotenv
 
-
-
+load_dotenv()
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 ## Function to load Google Gemini Pro Vision API And get response
 
-def get_gemini_repsonse(input,image,prompt):
+def get_gemini_repsonse(input_prompt,image):
     model=genai.GenerativeModel('gemini-1.5-flash')
-    response=model.generate_content([input,image[0],prompt])
+    response=model.generate_content([input_prompt,image[0]])
     return response.text
 
 def input_image_setup(uploaded_file):
@@ -57,7 +58,7 @@ If image does not contain living organism or something which you do not know res
 
 if submit:
     image_data=input_image_setup(uploaded_file)
-    response=get_gemini_repsonse(input_prompt,image_data,input)
+    response=get_gemini_repsonse(input_prompt,image_data)
    
     st.write(response)
 
