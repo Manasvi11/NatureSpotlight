@@ -33,3 +33,8 @@ streamlit run bio.py
 
 ![image](https://github.com/user-attachments/assets/dffcc0a0-7e13-47c6-b4aa-cc2ad346b289)
 
+![image](https://github.com/user-attachments/assets/a48c6ed1-5437-4bd5-97d2-87caf4a60c32)
+
+![image](https://github.com/user-attachments/assets/bf8a8160-48d0-4935-bd5e-8f0b1abc598e)
+
+
