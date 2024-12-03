@@ -1,7 +1,7 @@
 # NatureSpotlight
 An AI-powered app that identifies species from images and gives information about that species as a fascinating stories.
 
-Check the app Here - [naturespotlight]([https://naturespotlight.streamlit.app/])   
+Check the app Here - [naturespotlight](https://naturespotlight.streamlit.app/)   
 
 Run the below Commands
 ```
