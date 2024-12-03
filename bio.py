@@ -45,7 +45,7 @@ if uploaded_file is not None:
 submit=st.button("Find the Species")
 
 input_prompt="""
-you are an expert taxonomist where you need to see the image and return detailed info about the species including its Name,common name,Kingdom,phylum and class,family ,genus,native country .
+you are an expert taxonomist where you need to see the image and return detailed info about the species including its Name,common name,Kingdom,phylum and class,family ,genus,native country in proper order.
  generate a short informative ,engaging 150 words story like national geographic story about that species,it's life and history don't write national geographic story just diretly write the story. 
 the image you can answer is of only living organisms like animals,plants etc.
 Do not return results for non-living objects.
